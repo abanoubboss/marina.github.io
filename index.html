@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Places in Egypt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-animation"></div>
+
+  <!-- About Section -->
+  <section id="about-section">
+    <h1>About This Project</h1>
+    <img src="media/Marins.png" alt="Marina Eilya Rady Halem" class="about-img">
+    <p>This project was designed and developed by <strong>Marina Eilya Rady Halem</strong>, combining creativity, culture, and cutting-edge web technologies to bring Egypt’s most iconic tourist destinations to life.</p>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login-section">
+    <form id="login-form">
+      <h2>Login</h2>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery-section" class="hidden">
+    <h2>Explore Top Tourist Places</h2>
+    <div class="gallery">
+      <div class="place" data-place="pyramids">
+        <img src="media/pyramids.jpg" alt="Pyramids of Giza">
+        <p>Pyramids of Giza</p>
+      </div>
+      <div class="place" data-place="karnak">
+        <img src="media/karnak.jpg" alt="Karnak Temple">
+        <p>Karnak Temple</p>
+      </div>
+      <div class="place" data-place="valley">
+        <img src="media/valley.jpg" alt="Valley of the Kings">
+        <p>Valley of the Kings</p>
+      </div>
+      <div class="place" data-place="abusimbel">
+        <img src="media/abusimbel.jpg" alt="Abu Simbel Temples">
+        <p>Abu Simbel Temples</p>
+      </div>
+      <div class="place" data-place="siwa">
+        <img src="media/siwa.jpg" alt="Siwa Oasis">
+        <p>Siwa Oasis</p>
+      </div>
+    </div>
+    <button id="logout">Logout</button>
+  </section>
+
+  <!-- Details Section -->
+  <section id="details-section" class="hidden">
+    <button id="back">Back to Gallery</button>
+    <div id="details-content"></div>
+    <button id="logout2">Logout</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
